@@ -11,7 +11,7 @@ ul {
 }
 li {
 	list-style-type: none;
-	font-size: 18px;
+	font-size: 20px;
 }
 img {
 	max-width: 100%;
@@ -25,6 +25,9 @@ a, a:hover, a:focus, a:visited{
 }
 a:hover {
 	color: #a5a5a5;
+}
+a, button {
+	cursor: pointer;
 }
 
 .background {
@@ -63,8 +66,12 @@ a:hover {
 	width: 80%;
 	margin: 0 auto;
 }
+.logo {
+	width: 70%;
+}
 .subtitle {
 	margin: 0;
+	font-size: 22px;
     font-weight: 300;
 }
 .content {
@@ -74,10 +81,24 @@ a:hover {
 	display: inline;
 	padding-bottom: 3px;
     border-bottom: 1px solid;	
-	font-size: 30px;
+	font-size: 35px;
 }
 .contact li {
 	padding: 5px;	
+}
+.enquire {
+	padding: 10px 20px;
+    font-size: 20px;
+    margin-top: 25px;
+    background: #fff;
+    color: #000 !important;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: 500;
+    box-shadow: 2px 2px 5px #636363;
+}
+.enquire:hover {
+	box-shadow: 3px 3px 7px #636363;
 }
 footer {
 	text-align: center;
@@ -114,5 +135,12 @@ footer {
   }
   li {
 	font-size: 13px;
+  }
+  .enquire {
+	font-size: 13px;
+	margin: 0;
+  }
+  .subtitle {
+	  font-size: 15px;
   }
 }
